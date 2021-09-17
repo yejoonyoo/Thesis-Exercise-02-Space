@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+body{
+  overflow-x: hidden;
+  height: 3000px;
+  display: flex;
+  justify-content: center;
+}
+
+#images{
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#images img{
+  height: 90vh;
+  margin: 5vh auto;
+  display: none;
+}
+#images .active{
+  display: block;
+}
+
+#video {
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#video video{
+  height: 90vh;
+  margin: 5vh auto;
+  display: none;
+}
+
+#video .active{
+  display: block;
+}
+
